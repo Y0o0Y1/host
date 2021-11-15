@@ -5,9 +5,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F7F9FC;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'clanProBold';
+  src: url("./fonts/FFClanProMedium.TTF")
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')
+}
+
+@font-face {
+  font-family: 'clanPro';
+  src: url("./fonts/FFClanProRgNews.TTF")
 }
